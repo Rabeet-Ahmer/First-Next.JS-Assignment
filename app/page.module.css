@@ -1,0 +1,39 @@
+.main{
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo{
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 6rem;
+}
+.logo:hover{
+  cursor:default;
+}
+
+.links{
+  padding-right: 2rem;
+  padding-top: 3rem;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+.links li:hover{
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+  font-size: 3rem;
+}
+.text:hover{
+  cursor: default;
+}

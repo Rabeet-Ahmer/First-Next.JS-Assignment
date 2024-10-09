@@ -1,0 +1,24 @@
+.main{
+    background-color: white;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main h1 {
+    font-size: 3rem;
+}
+.main h1:hover{
+    cursor: default;
+}
+
+.link{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
+.link:hover{
+    opacity: 0.7;
+    text-decoration: underline;
+}
